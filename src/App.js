@@ -7,7 +7,7 @@ function App() {
     <Suspense fallback={<div className="loadingSpinner"></div>}>
       <div>
         <Router>
-          <Route exact path="/" component={Main}/>
+          <Route path={process.env.PUBLIC_URL + '/'} exact component={Main}/>
         </Router>
       </div>
     </Suspense>
