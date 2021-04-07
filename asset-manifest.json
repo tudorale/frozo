@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/frozo/static/js/main.055e284b.chunk.js",
-    "main.js.map": "/frozo/static/js/main.055e284b.chunk.js.map",
+    "main.js": "/frozo/static/js/main.0c88b53a.chunk.js",
+    "main.js.map": "/frozo/static/js/main.0c88b53a.chunk.js.map",
     "runtime-main.js": "/frozo/static/js/runtime-main.71d023e1.js",
     "runtime-main.js.map": "/frozo/static/js/runtime-main.71d023e1.js.map",
     "static/js/2.6f9f7719.chunk.js": "/frozo/static/js/2.6f9f7719.chunk.js",
@@ -18,6 +18,6 @@
   "entrypoints": [
     "static/js/runtime-main.71d023e1.js",
     "static/js/2.6f9f7719.chunk.js",
-    "static/js/main.055e284b.chunk.js"
+    "static/js/main.0c88b53a.chunk.js"
   ]
 }
