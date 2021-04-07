@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/frozo/static/js/main.055e284b.chunk.js",
+    "main.js.map": "/frozo/static/js/main.055e284b.chunk.js.map",
+    "runtime-main.js": "/frozo/static/js/runtime-main.71d023e1.js",
+    "runtime-main.js.map": "/frozo/static/js/runtime-main.71d023e1.js.map",
+    "static/js/2.6f9f7719.chunk.js": "/frozo/static/js/2.6f9f7719.chunk.js",
+    "static/js/2.6f9f7719.chunk.js.map": "/frozo/static/js/2.6f9f7719.chunk.js.map",
+    "static/css/3.13ab6ad8.chunk.css": "/frozo/static/css/3.13ab6ad8.chunk.css",
+    "static/js/3.ffb14764.chunk.js": "/frozo/static/js/3.ffb14764.chunk.js",
+    "static/js/3.ffb14764.chunk.js.map": "/frozo/static/js/3.ffb14764.chunk.js.map",
+    "index.html": "/frozo/index.html",
+    "static/css/3.13ab6ad8.chunk.css.map": "/frozo/static/css/3.13ab6ad8.chunk.css.map",
+    "static/js/2.6f9f7719.chunk.js.LICENSE.txt": "/frozo/static/js/2.6f9f7719.chunk.js.LICENSE.txt",
+    "static/media/2.1a22db21.png": "/frozo/static/media/2.1a22db21.png",
+    "static/media/main.css": "/frozo/static/media/background.cef0a6f1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71d023e1.js",
+    "static/js/2.6f9f7719.chunk.js",
+    "static/js/main.055e284b.chunk.js"
+  ]
+}
