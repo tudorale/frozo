@@ -9,4 +9,4 @@ The website for a streetwear brand made by me and my friend who got too much fre
 - TeeSpring - printing and delivering.
 
 ## Preview
-<a href="https://tudorale.github.io/portfolio/">here</a>
+<a href="https://tudorale.github.io/frozo/">here</a>
