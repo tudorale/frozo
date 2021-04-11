@@ -2,19 +2,19 @@
   "files": {
     "main.js": "/frozo/static/js/main.4211b53e.chunk.js",
     "main.js.map": "/frozo/static/js/main.4211b53e.chunk.js.map",
-    "runtime-main.js": "/frozo/static/js/runtime-main.264f2683.js",
-    "runtime-main.js.map": "/frozo/static/js/runtime-main.264f2683.js.map",
+    "runtime-main.js": "/frozo/static/js/runtime-main.884edd07.js",
+    "runtime-main.js.map": "/frozo/static/js/runtime-main.884edd07.js.map",
     "static/js/2.8c54c365.chunk.js": "/frozo/static/js/2.8c54c365.chunk.js",
     "static/js/2.8c54c365.chunk.js.map": "/frozo/static/js/2.8c54c365.chunk.js.map",
     "static/css/3.8a226600.chunk.css": "/frozo/static/css/3.8a226600.chunk.css",
-    "static/js/3.3ff11e36.chunk.js": "/frozo/static/js/3.3ff11e36.chunk.js",
-    "static/js/3.3ff11e36.chunk.js.map": "/frozo/static/js/3.3ff11e36.chunk.js.map",
+    "static/js/3.6fd4ce6b.chunk.js": "/frozo/static/js/3.6fd4ce6b.chunk.js",
+    "static/js/3.6fd4ce6b.chunk.js.map": "/frozo/static/js/3.6fd4ce6b.chunk.js.map",
     "static/css/4.8a226600.chunk.css": "/frozo/static/css/4.8a226600.chunk.css",
-    "static/js/4.2288ea8b.chunk.js": "/frozo/static/js/4.2288ea8b.chunk.js",
-    "static/js/4.2288ea8b.chunk.js.map": "/frozo/static/js/4.2288ea8b.chunk.js.map",
+    "static/js/4.05a112ab.chunk.js": "/frozo/static/js/4.05a112ab.chunk.js",
+    "static/js/4.05a112ab.chunk.js.map": "/frozo/static/js/4.05a112ab.chunk.js.map",
     "static/css/5.8a226600.chunk.css": "/frozo/static/css/5.8a226600.chunk.css",
-    "static/js/5.9910108d.chunk.js": "/frozo/static/js/5.9910108d.chunk.js",
-    "static/js/5.9910108d.chunk.js.map": "/frozo/static/js/5.9910108d.chunk.js.map",
+    "static/js/5.89947e4a.chunk.js": "/frozo/static/js/5.89947e4a.chunk.js",
+    "static/js/5.89947e4a.chunk.js.map": "/frozo/static/js/5.89947e4a.chunk.js.map",
     "index.html": "/frozo/index.html",
     "static/css/3.8a226600.chunk.css.map": "/frozo/static/css/3.8a226600.chunk.css.map",
     "static/css/4.8a226600.chunk.css.map": "/frozo/static/css/4.8a226600.chunk.css.map",
@@ -30,7 +30,7 @@
     "static/media/teeFuck.2597c42e.jpg": "/frozo/static/media/teeFuck.2597c42e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.264f2683.js",
+    "static/js/runtime-main.884edd07.js",
     "static/js/2.8c54c365.chunk.js",
     "static/js/main.4211b53e.chunk.js"
   ]
