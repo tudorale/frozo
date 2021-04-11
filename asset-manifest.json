@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/frozo/static/js/main.fe9b08af.chunk.js",
-    "main.js.map": "/frozo/static/js/main.fe9b08af.chunk.js.map",
-    "runtime-main.js": "/frozo/static/js/runtime-main.528c39c6.js",
-    "runtime-main.js.map": "/frozo/static/js/runtime-main.528c39c6.js.map",
-    "static/js/2.80618a95.chunk.js": "/frozo/static/js/2.80618a95.chunk.js",
-    "static/js/2.80618a95.chunk.js.map": "/frozo/static/js/2.80618a95.chunk.js.map",
+    "main.js": "/frozo/static/js/main.4e26c10c.chunk.js",
+    "main.js.map": "/frozo/static/js/main.4e26c10c.chunk.js.map",
+    "runtime-main.js": "/frozo/static/js/runtime-main.eede11a4.js",
+    "runtime-main.js.map": "/frozo/static/js/runtime-main.eede11a4.js.map",
+    "static/js/2.a216a106.chunk.js": "/frozo/static/js/2.a216a106.chunk.js",
+    "static/js/2.a216a106.chunk.js.map": "/frozo/static/js/2.a216a106.chunk.js.map",
     "static/css/3.8a226600.chunk.css": "/frozo/static/css/3.8a226600.chunk.css",
-    "static/js/3.91d735f0.chunk.js": "/frozo/static/js/3.91d735f0.chunk.js",
-    "static/js/3.91d735f0.chunk.js.map": "/frozo/static/js/3.91d735f0.chunk.js.map",
+    "static/js/3.9393784e.chunk.js": "/frozo/static/js/3.9393784e.chunk.js",
+    "static/js/3.9393784e.chunk.js.map": "/frozo/static/js/3.9393784e.chunk.js.map",
     "static/css/4.8a226600.chunk.css": "/frozo/static/css/4.8a226600.chunk.css",
     "static/js/4.05a112ab.chunk.js": "/frozo/static/js/4.05a112ab.chunk.js",
     "static/js/4.05a112ab.chunk.js.map": "/frozo/static/js/4.05a112ab.chunk.js.map",
@@ -19,7 +19,7 @@
     "static/css/3.8a226600.chunk.css.map": "/frozo/static/css/3.8a226600.chunk.css.map",
     "static/css/4.8a226600.chunk.css.map": "/frozo/static/css/4.8a226600.chunk.css.map",
     "static/css/5.8a226600.chunk.css.map": "/frozo/static/css/5.8a226600.chunk.css.map",
-    "static/js/2.80618a95.chunk.js.LICENSE.txt": "/frozo/static/js/2.80618a95.chunk.js.LICENSE.txt",
+    "static/js/2.a216a106.chunk.js.LICENSE.txt": "/frozo/static/js/2.a216a106.chunk.js.LICENSE.txt",
     "static/media/34.13acf3f2.jpg": "/frozo/static/media/34.13acf3f2.jpg",
     "static/media/main.css": "/frozo/static/media/background.4a5d6882.jpg",
     "static/media/game.afa7ab1a.jpg": "/frozo/static/media/game.afa7ab1a.jpg",
@@ -30,8 +30,8 @@
     "static/media/teeFuck.2597c42e.jpg": "/frozo/static/media/teeFuck.2597c42e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.528c39c6.js",
-    "static/js/2.80618a95.chunk.js",
-    "static/js/main.fe9b08af.chunk.js"
+    "static/js/runtime-main.eede11a4.js",
+    "static/js/2.a216a106.chunk.js",
+    "static/js/main.4e26c10c.chunk.js"
   ]
 }
