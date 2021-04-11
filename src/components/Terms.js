@@ -5,7 +5,7 @@ import Navigation from './subComponents/NavigationTwo';
 function Terms() {
     return (
         <>
-            <Navigation name="Privacy Policy" redirect="/policy"/>
+            <Navigation name="Privacy Policy" redirect="/frozo/policy"/>
             <div className="terms">
                 <h1>Terms and Conditions</h1>
                 <p>Last updated: April 10, 2021</p>
@@ -89,7 +89,7 @@ function Terms() {
                 <h1>Contact Us</h1>
                 <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
                 <ul>
-                <li>By visiting this page on our website: <a href="/#contact" rel="external noreferrer nofollow noopener" target="_blank">/#contact</a></li>
+                <li>By visiting this page on our website: <a href="/frozo/#contact" rel="external noreferrer nofollow noopener" target="_blank">/#contact</a></li>
                 </ul>
                 
              </div>

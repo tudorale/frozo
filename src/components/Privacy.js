@@ -5,7 +5,7 @@ import Navigation from './subComponents/NavigationTwo';
 function Privacy() {
     return (
         <>
-         <Navigation name="Conditions" redirect="/terms" />
+         <Navigation name="Conditions" redirect="/frozo/terms" />
          <div className="privacyPolicy">
             <h1>Privacy Policy</h1>
                 <p style={{textDecoration: "underline"}}>Last updated: April 10, 2021</p>
