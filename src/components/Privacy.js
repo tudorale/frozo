@@ -5,7 +5,7 @@ import Navigation from './subComponents/NavigationTwo';
 function Privacy() {
     return (
         <>
-         <Navigation name="Conditions" redirect="/frozo/terms" />
+         <Navigation name="Conditions" redirect="/frozo/#/terms" />
          <div className="privacyPolicy">
             <h1>Privacy Policy</h1>
                 <p style={{textDecoration: "underline"}}>Last updated: April 10, 2021</p>
@@ -151,7 +151,7 @@ function Privacy() {
                 <h1>6. Contact Us</h1>
                 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
                 <ul>
-                <li>By visiting this page on our website: <a href="www.frozo.xyz/#contact" rel="external nofollow noopener noreferrer" target="_blank">www.frozo.xyz/#contact</a></li>
+                <li>By visiting the contact section on our main page.</li>
                 </ul>
         </div>
         </>

@@ -1,5 +1,7 @@
 import React from 'react'
 import "../../style/css/main.css";
+import {Link} from "react-router-dom"
+import { HashLink } from 'react-router-hash-link';
 
 function Navigation() {
 
@@ -51,9 +53,9 @@ function Navigation() {
                     </div>
 
                     <ul>
-                        <a href="#products"><li>Our Products</li></a>
-                        <a href="#about"><li>About Us & Frozo</li></a>
-                        <a href="#contact"><li>Contact Us</li></a>
+                        <HashLink smooth to="/#products"><li>Our Products</li></HashLink>
+                        <HashLink smooth to="/#about"><li>About Us & Froze</li></HashLink>
+                        <HashLink smooth to="/#contact"><li>Contact Us</li></HashLink>
                     </ul>
                 </div>
             </div>
