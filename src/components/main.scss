@@ -1,12 +1,15 @@
 @import "nav";
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 @import "variables";
+@import "privacy";
+@import "navTwo";
+@import "terms";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-family: Roboto, Helvetica, sans-serif;
 }
 
 .loadingSpinner {
@@ -16,6 +19,10 @@
   width: 40px;
   height: 40px;
   z-index: 214;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   transition: all 300ms ease-in;
   -webkit-animation: spin 1s linear infinite; /* Safari */
   animation: spin 1s linear infinite;
@@ -31,7 +38,7 @@
         url("../../images/background.jpg");
       width: 100%;
       height: 100vh;
-      position: relative;
+      position: absolute;
       z-index: -1;
       background-position: center;
       background-size: cover;
@@ -39,13 +46,38 @@
     }
     h1 {
       position: absolute;
-      top: 170px;
-      font-size: 3.3rem;
+      top: 200px;
+      font-size: 3rem;
       left: 30px;
       font-weight: 600;
       width: 800px;
-      letter-spacing: 5px;
       color: white;
+      &::before {
+        content: "";
+        width: 70px;
+        height: 42px;
+        z-index: -1;
+        background-color: $main-color;
+        position: absolute;
+        left: 180px;
+        top: 7px;
+      }
+      .lineAddon {
+        width: 313px;
+        height: 2px;
+        background-color: white;
+        position: absolute;
+        top: 52px;
+        left: 180px;
+      }
+    }
+    p {
+      position: absolute;
+      color: white;
+      bottom: 0;
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+      left: 30px;
     }
     .scroll {
       position: absolute;
@@ -64,8 +96,284 @@
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 60px;
+    position: relative;
+    top: 110vh;
     margin-bottom: 50px;
+
+    .productsGrid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 90%;
+      height: 1350px;
+      margin: 50px auto;
+      .product {
+        width: 500px;
+        height: 500px;
+        text-align: start;
+        .JFN {
+          font-size: 2.5rem;
+        }
+        img {
+          width: 100%;
+          height: 500px;
+        }
+        .special {
+          position: relative;
+          top: -630px;
+          padding: 10px;
+          background-color: red;
+          color: white;
+          font-size: 1.05rem;
+          width: fit-content;
+        }
+        h1 {
+          font-size: 1.5rem;
+          margin-top: 10px;
+        }
+        p {
+          margin-top: 10px;
+        }
+        .price {
+          float: right;
+        }
+        a button {
+          margin-top: 10px;
+          padding: 10px;
+          color: white;
+          background-color: $main-color;
+          outline: none;
+          border: none;
+          cursor: pointer;
+          border-radius: 3px;
+          transition: all 300ms ease;
+          font-size: 1rem;
+          &:hover {
+            background-color: $hover-color;
+          }
+        }
+      }
+    }
+    .about {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 90%;
+      margin: 50px auto;
+      margin-bottom: 100px;
+      .box1 {
+        img {
+          width: 500px;
+        }
+      }
+      .box2 {
+        width: 50%;
+        text-align: start;
+        p {
+          margin-top: 15px;
+          font-size: 1.3rem;
+          a {
+            color: $main-color;
+          }
+        }
+      }
+    }
+
+    .contact {
+      width: 80%;
+      margin: 30px auto;
+      form {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-gap: 20px;
+        grid-template-areas:
+          "name email"
+          "message message"
+          "btn loading"
+          "status status";
+        .name,
+        .email,
+        .message {
+          label {
+            position: absolute;
+            color: $main-color;
+            font-size: 1rem;
+            margin-top: 10px;
+            margin-left: 10px;
+            transition: all 300ms linear;
+            background-color: white;
+            width: fit-content;
+          }
+          input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid lightgrey;
+            border-radius: 3px;
+            outline: none;
+            font-size: 1.05rem;
+          }
+        }
+        .name {
+          grid-area: name;
+        }
+        .email {
+          grid-area: email;
+        }
+        .message {
+          grid-area: message;
+          textarea {
+            resize: none;
+            width: 100%;
+            height: 200px;
+            border: 1px solid lightgrey;
+            border-radius: 3px;
+            padding: 10px;
+            font-size: 1.05rem;
+            outline: none;
+          }
+        }
+        button {
+          grid-area: btn;
+          padding: 10px;
+          width: 130px;
+          color: white;
+          background-color: $main-color;
+          outline: none;
+          border: none;
+          cursor: pointer;
+          border-radius: 3px;
+          transition: all 300ms ease;
+          font-size: 1.05rem;
+          &:hover {
+            background-color: $hover-color;
+          }
+        }
+
+        .loading {
+          grid-area: loading;
+          border: 6px solid rgb(236, 236, 236);
+          border-radius: 50%;
+          border-top: 6px solid $main-color;
+          width: 40px;
+          height: 40px;
+          opacity: 0;
+          z-index: -1;
+          position: relative;
+          left: -335px;
+          transition: all 300ms ease-in;
+          -webkit-animation: spin 1s linear infinite; /* Safari */
+          animation: spin 1s linear infinite;
+        }
+
+        .status {
+          grid-area: status;
+          text-align: start;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+
+  .footer {
+    width: 100%;
+    height: 300px;
+    background-color: $background;
+    position: relative;
+    top: 120vh; //
+    .logoFooter,
+    .tsLogo {
+      width: 130px;
+      margin: 30px;
+    }
+    .logoFooter {
+      position: relative;
+      top: -30px;
+      left: -15px;
+    }
+    .tsLogo {
+      margin: 0;
+      position: relative;
+      left: -160px;
+      top: -40px;
+      path {
+        fill: white;
+      }
+    }
+    .bottomLinks {
+      color: white;
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      margin: 0px 0px 10px 30px;
+      font-size: 1.1rem;
+      a {
+        margin-left: 15px;
+        color: #747474;
+        text-decoration: none;
+      }
+    }
+
+    .rightLinks {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      right: 0;
+      margin-right: 50px;
+      top: 30px;
+      font-size: 1.1rem;
+      h1 {
+        font-weight: 400;
+        font-size: 1.4rem;
+      }
+      a {
+        margin-top: 15px;
+        color: #747474;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .website .wrapper {
+    width: 100%;
+    max-width: unset;
+  }
+  .website .wrapper .about {
+    width: 100%;
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .website .wrapper .productsGrid {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    .product:nth-child(1) {
+      margin-top: 0px;
+    }
+    .product {
+      margin-top: 180px;
+    }
+    .product:last-child {
+      margin-bottom: 150px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .website .wrapper .about {
+    flex-direction: column;
+  }
+  .website .wrapper .about .box2 {
+    text-align: start;
+    width: 100%;
+    padding: 0 50px;
+    margin-top: 30px;
   }
 }
 
@@ -78,10 +386,219 @@
   }
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .website .hero h1 {
-    width: 100%;
     padding-right: 50px;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+  }
+
+  .website .hero .backgroundImage {
+    height: 700px;
+  }
+  .website .wrapper {
+    top: 770px;
+  }
+
+  .website .footer {
+    top: 810px;
+  }
+
+  .website .hero p {
+    top: 650px;
+  }
+
+  .website .hero .scroll {
+    top: 600px;
+  }
+
+  .website .hero h1::before {
+    width: 56px;
+    height: 40px;
+    position: absolute;
+    left: 152px;
+    top: 3px;
+  }
+  .website .hero h1 .lineAddon {
+    width: 260px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 43px;
+    left: 152px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .website .hero h1 {
+    font-size: 4.5rem;
+    width: 1000px;
+    &::before {
+      left: 298px;
+      height: 60px;
+      top: 11px;
+      width: 100px;
+    }
+    .lineAddon {
+      top: 75px;
+      left: 300px;
+      width: 465px;
+    }
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .website .hero h1 {
+    width: 500px;
+  }
+  .website .wrapper .about {
+    width: 100%;
+    padding: 0;
+  }
+
+  .website .wrapper .about .box2 {
+    padding: 0 20px;
+  }
+
+  .website .wrapper .contact {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .website .wrapper .contact form {
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+      "name name"
+      "email email"
+      "message message"
+      "btn loading"
+      "status status";
+  }
+
+  .website .wrapper .about .box1 {
+    display: none;
+  }
+
+  .website .wrapper .about .box2 {
+    margin-top: -30px;
+  }
+
+  .website .wrapper .productsGrid {
+    width: 350px;
+  }
+
+  .website .wrapper .productsGrid .product {
+    width: 350px;
+    height: 350px;
+  }
+  .website .wrapper .productsGrid .product h1 {
+    font-size: 1.3rem;
+  }
+
+  .website .wrapper .productsGrid .product .price {
+    margin-top: 15px;
+  }
+
+  .website .wrapper .productsGrid .product .special {
+    top: -481px;
+  }
+
+  .website .wrapper .productsGrid .product img {
+    height: 350px;
+  }
+
+  .website .wrapper .productsGrid .product:nth-child(2) {
+    margin-top: 210px;
+  }
+
+  .website .footer {
+    height: 450px;
+  }
+
+  .website .footer .rightLinks {
+    left: 0;
+    top: 170px;
+    margin-left: 30px;
+  }
+
+  .website .footer .bottomLinks {
+    display: block;
+  }
+
+  .website .footer .bottomLinks a {
+    margin-left: 0px;
+    display: block;
+    margin-top: 15px;
+  }
+
+  .website .hero h1 {
+    font-size: 2.5rem;
+    width: 350px;
+  }
+
+  .website .hero h1 .lineAddon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .website .wrapper .productsGrid {
+    width: 280px;
+  }
+
+  .website .wrapper .productsGrid .product {
+    width: 280px;
+    height: 280px;
+  }
+  .website .wrapper .productsGrid .product h1 {
+    font-size: 1.2rem;
+  }
+
+  .website .wrapper .productsGrid .product .price {
+    margin-top: 15px;
+  }
+
+  .website .wrapper .productsGrid .product .special {
+    top: -407px;
+  }
+
+  .website .wrapper .productsGrid .product img {
+    height: 280px;
+  }
+
+  .website .wrapper .productsGrid .product:nth-child(2) {
+    margin-top: 200px;
+  }
+
+  .website .hero h1 {
+    font-size: 2.1rem;
+    width: 300px;
+    left: 15px;
+  }
+
+  .website .hero p {
+    left: 15px;
+  }
+
+  .website .hero h1::before {
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    left: 127px;
+    top: 3px;
+  }
+
+  .website .wrapper .about .box2 p {
+    font-size: 1.1rem;
   }
 }

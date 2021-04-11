@@ -1,6 +1,5 @@
 {
-  "homepage": "http://tudorale.github.io/frozo",
-  "name": "froze",
+  "name": "frozo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "emailjs-com": "^2.6.4",
     "react-lazy": "^1.1.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0"

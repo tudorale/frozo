@@ -1,0 +1,55 @@
+@import "variables";
+
+.navigationTwo {
+  width: 100%;
+  height: 65px;
+  background-color: $background;
+  position: absolute;
+  top: 0;
+  .logoTwo {
+    position: absolute;
+    left: 0;
+    top: -20px;
+    margin-left: 5px;
+    cursor: pointer;
+    a svg {
+      width: 110px;
+    }
+  }
+
+  .navigationContentTwo {
+    float: right;
+    margin-right: 5px;
+    ul {
+      display: flex;
+      list-style: none;
+      flex-direction: row;
+      font-size: 1.15rem;
+      a {
+        color: white;
+        margin: 20px;
+        margin-left: 5px;
+        text-decoration: none;
+        transition: all 300ms linear;
+        &:hover {
+          color: $main-color;
+        }
+      }
+    }
+  }
+}
+
+@keyframes fromLeft {
+  from {
+    transform: translateX(300px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navigationTwo .navigationContentTwo ul a {
+    margin-left: -5px;
+  }
+}
