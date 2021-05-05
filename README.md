@@ -1,12 +1,16 @@
 # FROZO
-The website for a streetwear brand made by me and my friend who got too much free time in their hands.
+
+Frozo is more like a clothing brand, a streetwear brand who started from a project at school, the website was made by me, Tudor Alexandru, and the Frozo project is formated from two students.
 
 ## Technology
+
 - React JS
 - SCSS
 
 ## Partenership
+
 - TeeSpring - printing and delivering.
 
 ## Preview
-<a href="https://tudorale.github.io/frozo/">here</a>
+
+<a href="https://tudorale.github.io/frozo/">Here</a>

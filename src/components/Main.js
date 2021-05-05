@@ -23,8 +23,8 @@ function Main() {
     const [message, setMessage] = useState("");
     const [data, setData] = useState({name: "", email: "", message: ""})
 
-    const [firstPrice, setFirstPrice] = useState("$33.34 USD")
-    const [secondPrice, setSecondPrice] = useState("$33.34 USD")
+    const [firstPrice, setFirstPrice] = useState("$32.20 USD")
+    const [secondPrice, setSecondPrice] = useState("$32.20 USD")
     const [thirthPrice, setThirthPrice] = useState("$26.00 USD")
     const [forthPrice, setForthPrice] = useState("$22.50 USD")
 
@@ -126,7 +126,7 @@ function Main() {
                 <Navigation />
                 <div className="hero">
                     <div className="backgroundImage"></div>
-                    <h1>"Get the ice and the drip from us and the shit from others" <div className="lineAddon"></div></h1>
+                    <h1>"Get the ice and the drip from us and the trash from others" <div className="lineAddon"></div></h1>
                     <p>Frozo "Packing that ice" Tee</p>
                     
                     <div className="scroll">
@@ -141,16 +141,16 @@ function Main() {
                     <h1 id="products">Our Products</h1>
                     <div className="productsGrid">
                         <div className="product">
-                            <img src={Hoodie} alt="" onMouseEnter={() => changeImage("hoodie", Tee, "$26.00 USD")} onMouseOut={() => changeImageBack("hoodie", Hoodie, "$33.34 USD")} id="hoodie" />
-                            <h1>Frozo "Packing that ice" Hoodie & Tee</h1>
+                            <img src={Hoodie} alt="" onMouseEnter={() => changeImage("hoodie", Tee, "$26.00 USD")} onMouseOut={() => changeImageBack("hoodie", Hoodie, "$32.20 USD")} id="hoodie" />
+                            <h1>Frozo "Packing that ice" Hoodie / Tee</h1>
                             <p>All sizes available</p>
                             <a href="https://teespring.com/frozo-logo-hoodie" target="_blank" rel="noreferrer"><button>Details & Buy</button></a>
                             <h1 className="price">{firstPrice}</h1>
                         </div>
 
                         <div className="product">
-                            <img src={Fck} alt="" id="fuck" onMouseEnter={() => changeImage("fuck", teeFck, "$26.00 USD")} onMouseOut={() => changeImageBack("fuck", Fck, "$33.34 USD")}/>
-                            <h1>"Fuck the World!" Hoodie & Tee</h1>
+                            <img src={Fck} alt="" id="fuck" onMouseEnter={() => changeImage("fuck", teeFck, "$26.00 USD")} onMouseOut={() => changeImageBack("fuck", Fck, "$32.20 USD")}/>
+                            <h1>"Fuck the World!" Hoodie / Tee</h1>
                             <p>All sizes available</p>
                             <a href="https://teespring.com/fvck-the-world-collection" target="_blank" rel="noreferrer"><button>Details & Buy</button></a>
                             <h1 className="price">{secondPrice}</h1>
