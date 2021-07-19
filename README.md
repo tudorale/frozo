@@ -1,6 +1,6 @@
 # FROZO
 
-Frozo is more like a clothing brand, a streetwear brand who started from a project at school, the website was made by me, Tudor Alexandru, and the Frozo project is formated from some friends.
+Frozo is more like a clothing brand, a streetwear brand who started from a project at school, the website was made by me, Tudor Alexandru, and the Frozo project is formated from some friends. The project is finished and no futures updates will come.
 
 ## Technology
 
